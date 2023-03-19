@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - Print combinations of two digit numbers
-*
-* Return: Always 0 (Success)
-*/
+ * main - Prints all possible different combinations of two digits.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int first_digit, second_digit;
+    int first_digit;
+    int second_digit;
 
     for (first_digit = 0; first_digit <= 8; first_digit++)
     {
@@ -23,7 +24,8 @@ int main(void)
             }
         }
     }
+
     putchar('\n');
 
-    return 0;
+    return (0);
 }
