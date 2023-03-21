@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * main - the driver function print _putchar followed on a new line
- * Return: always 0
+ * print_alphabet - in lower case
+ * Return 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+  char i;
 
-	return (0);
+  for (i = 'a'; i <= 'z'; i++)
+    {
+      _putchar(i);
+    }
+  _putchar('\n');
 }
