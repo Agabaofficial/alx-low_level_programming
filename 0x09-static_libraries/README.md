@@ -1,18 +1,3 @@
-0x09. C - Static libraries
-C
- By: Julien Barbier
- Weight: 1
- Ongoing second chance project - started Apr 6, 2023 7:00 AM, must end by Apr 16, 2023 7:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/24 mandatory
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: no optional tasks
-Concepts
-For this project, we expect you to look at this concept:
-
-C static libraries
 Resources
 Read or watch:
 
@@ -58,3 +43,5 @@ All your files should end with a new line (why?)
 The first line of all your files should be exactly #!/bin/bash
 A README.md file, at the root of the folder of the project, describing what each script is doing
 All your files must be executable
+More Info
+You do not need to learn about dynamic libraries, yet.
